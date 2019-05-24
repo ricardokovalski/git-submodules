@@ -10,7 +10,9 @@ Exemplo de uso: preciso inserir no meu projeto um repositório com arquivos CSV 
 
 ### Mão na Massa
 
-```git submodule add <url-repositorio> diretorio```
+```
+git submodule add <url-repositorio> diretorio
+```
  
 Exemplo: git submodule add git@bitbucket.org:rivendel/csv-imports.git import/csv
 
@@ -20,13 +22,17 @@ Temos agora na raiz do nosso projeto um arquivo chamado .gitmodules com as devid
 
 ### Inicializando o Submodule
 
-```git submodule init```
+```
+git submodule init
+```
 
 O init vai iniciar as configurações necessárias para o trabalho dos SubModules.
 
 ### Atualizando as configurações
 
-```git submodule update```
+```
+git submodule update
+```
 
 Esse comando irá carregar toda a configuração necessária, caso tenha feito alterações em seus submodulos.
 
@@ -34,11 +40,15 @@ Esse comando irá carregar toda a configuração necessária, caso tenha feito a
 
 Primeiro, acesse a pasta do seu submodulo:
 
-```cd imports/csv```
+```
+cd imports/csv
+```
 
 Depois, vamos executar o comando pull:
 
-```git pull remote your_branch #git pull origin master por exemplo```
+```
+git pull remote your_branch #git pull origin master por exemplo
+```
 
 ### Como isso tudo funciona?
 
